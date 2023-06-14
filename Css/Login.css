@@ -28,6 +28,7 @@
 .Login h1 {
     text-align: center;
     color: black;
+    font-size: 40px;
 }
 .Login .container .inputbox{
     position: relative;
@@ -73,10 +74,24 @@
     font-size: 20px;
     padding:5px 0;
     width: 100%;
+    transition: 0.3s;
 }
-button:hover {
+.Login .container button:hover {
     cursor: pointer;
+    background-color: #ce0033;
+    border-color: #ce0033;
 }
+@media (max-width:1200px) {
+    .Login .container {
+        width: 350px;
+        height: 400px;
+    }
+    .Login .container::before {
+        width: 600px;
+        height: 600px;
+    }
+}
+
 @media(max-height:600px){
     .Login .container::before {
         width: 100%;
