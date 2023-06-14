@@ -80,6 +80,7 @@
     cursor: pointer;
     background-color: #ce0033;
     border-color: #ce0033;
+    color:white;
 }
 @media (max-width:1200px) {
     .Login .container {
